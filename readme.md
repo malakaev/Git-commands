@@ -106,6 +106,14 @@ git init             # создать новый проект в текущей 
 git init folder-name # создать новый проект в указанной директории
 ```
 
+### Для того что бы создать удаленный репозиторий через терминал
+``` bash
+# предварительно gh нужно установить
+brew install gh # или другим подходящим способом
+
+gh repo create
+```
+[Ссылка на документацию GitHubDocs](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github)
 
 ### Клонирование репозитория
 
